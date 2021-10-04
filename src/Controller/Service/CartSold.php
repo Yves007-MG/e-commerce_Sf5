@@ -1,9 +1,10 @@
 <?php
-namespace App\Classe ;
+namespace App\Service ;
 
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Session\SessionInterface;
 
-class Cart 
+class CartSold 
 {
     private $session;
     public function __construct(SessionInterface $session)
